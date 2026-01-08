@@ -24,10 +24,10 @@ class ContactController extends Controller
 
         return redirect()->back()->with('success', 'Your message has been sent successfully!');
     }
+public function index()
+{
+    $messages = Contact::latest()->paginate(10); 
+    return view('admin.contacts.index', compact('messages'));
+}
 
-    public function index()
-    {
-        $messages = Contact::latest()->paginate(10);
-        return view('admin.contacts.index', compact('messages'));
-    }
 }

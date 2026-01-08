@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container py-5">
-    <h1 class="mb-4 text-center fw-bold display-5">User Messages</h1>
+    <h1 class="mb-4 text-center fw-bold display-5">User Reviews</h1>
 
     @forelse($messages as $message)
         <div class="card shadow-sm mb-4 border-0 rounded-4">

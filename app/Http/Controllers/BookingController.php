@@ -22,19 +22,20 @@ class BookingController extends Controller
             'time' => 'required',
             'name' => 'required|string|max:255',
             'phone' => 'required|string|max:20',
-            'total_person' => 'required|integer|min:1',
+            'Number_of_Guests' => 'required|integer|min:1',
         ]);
 
+        
         $booking = new Booking();
         $booking->user_id = Auth::id(); 
         $booking->date = $request->date;
         $booking->time = $request->time;
         $booking->name = $request->name;
         $booking->phone = $request->phone;
-        $booking->total_person = $request->total_person;
+        $booking->Number_of_Guests = $request->Number_of_Guests;
         $booking->status = 'pending'; 
         $booking->save();
-
+        
        return redirect()->route('book.create')->with('success', 'Your booking has been submitted successfully!');
 
     }

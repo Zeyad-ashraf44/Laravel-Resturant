@@ -12,8 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('bookings', function (Blueprint $table) {
-            $table->string('name')->after('time');
-            $table->string('phone')->after('name');
+            $table->string('phone')->after('time');
             $table->integer('total_person')->after('phone');
         });
     }

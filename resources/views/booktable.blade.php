@@ -36,9 +36,9 @@
                 </div>
             </div>
 
-            <div class="mb-3">
-                <select name="total_person" class="form-control rounded-pill" required>
-                    <option value="" disabled selected>Total Person</option>
+            <div class="mb-3 ">
+                <select name="Number_of_Guests" class="form-select"  required>
+                    <option value="" disabled selected>Number of Guests</option>
                     <option value="1">1 Person</option>
                     <option value="2">2 Persons</option>
                     <option value="3">3 Persons</option>

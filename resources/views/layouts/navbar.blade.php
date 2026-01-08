@@ -8,12 +8,42 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link {{ request()->is('/') ? 'active fw-bold' : '' }}" href="{{ route('home') }}">Home</a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="{{ route('about') }}">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ route('menu') }}">Menu</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact</a></li>
+                <li class="nav-item"><a class="nav-link {{ request()->is('/') ? 'active fw-bold' : '' }}" href="{{ route('home') }}">Home</a></li>
+
+               <li class="nav-item"><a class="nav-link {{ request()->routeIs('about') ? 'active fw-bold' : '' }}" href="{{ route('about') }}">About</a></li>
+  
+               <li class="nav-item">
+  <a class="nav-link {{ request()->routeIs('menu.index') ? 'active fw-bold' : '' }}" 
+     href="{{ route('menu.index', 'all') }}">
+     Menu
+  </a>
+</li>
+
+              
+     <li class="nav-item">
+    @if(Auth::check() && Auth::user()->is_admin)
+        <a class="nav-link {{ request()->routeIs('admin.contact.index') ? 'active fw-bold' : '' }}" 
+           href="{{ route('admin.contact.index') }}">
+            Contact
+        </a>
+    @else
+        <a class="nav-link {{ request()->routeIs('contact.form') ? 'active fw-bold' : '' }}" 
+           href="{{ route('contact.form') }}">
+            Contact
+        </a>
+    @endif
+</li>
+
+
+
+              
+           @auth
+    @if(Auth::user()->role === 'admin')
+    
+    <li class="nav-item"><a class="nav-link {{ request()->routeIs('admin.dashboard') ? 'active fw-bold' : '' }}" href="{{ route('admin.dashboard') }}">Dashboard</a></li>
+
+    @endif
+@endauth
 
                 @guest
                     <li class="nav-item"><a class="nav-link" href="{{ route('login') }}">Login</a></li>

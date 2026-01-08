@@ -56,7 +56,7 @@
         </form>
     </div>
 
-    <div class="row mt-5 text-start">
+    <div class="row mt-5 ">
         <div class="col-md-4">
             <h5>Call Us:</h5>
             <p class="text-danger fw-bold fs-5">+1-234-567-8900</p>
