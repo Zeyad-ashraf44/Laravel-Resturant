@@ -1,4 +1,4 @@
-# Laravel Full Stack Web Application
+ # Laravel Full Stack Web Application
 
 A full-stack web application built using **Laravel (PHP)** for the backend and a modern frontend design.  
 The project includes authentication, CRUD operations, and admin management features.
@@ -35,7 +35,7 @@ Key Features & Highlights:
 
 ### Home Page
 
-![Home Page](screenshots/home.png)
+![Home Page](public/screenshots/home.png)
 ![Home Section](screenshots/homesection.png)
 
 ### Menu
