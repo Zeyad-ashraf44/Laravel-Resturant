@@ -52,7 +52,7 @@ Key Features & Highlights:
 
 ![contactus](public/screenshots/contactus.png)
 
-### Booking Mange
+### Booking Manage
 
 ![bookingmange](public/screenshots/bookingmange.png)
 
@@ -60,7 +60,7 @@ Key Features & Highlights:
 
 ![bookatable](public/screenshots/bookatable.png)
 
-### Users Mange
+### Users Manage
 
 ![usersmange](public/screenshots/usersmange.png)
 
