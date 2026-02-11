@@ -36,37 +36,37 @@ Key Features & Highlights:
 ### Home Page
 
 ![Home Page](public/screenshots/home.png)
-![Home Section](screenshots/homesection.png)
+![Home Section](public/screenshots/homesection.png)
 
 ### Menu
 
-![Menu](screenshots/menu1.png)
-![Menu](screenshots/menu.png)
-![MenuMange](screenshots/menumange.png)
+![Menu](public/screenshots/menu1.png)
+![Menu](public/screenshots/menu.png)
+![MenuMange](public/screenshots/menumange.png)
 
 ### Dashboard
 
-![Dashboard](screenshots/adminpanel.png)
+![Dashboard](public/screenshots/adminpanel.png)
 
 ### Contact
 
-![contactus](screenshots/contactus.png)
+![contactus](public/screenshots/contactus.png)
 
 ### bookingmange
 
-![bookingmange](screenshots/bookingmange.png)
+![bookingmange](public/screenshots/bookingmange.png)
 
 ### bookatable
 
-![bookatable](screenshots/bookatable.png)
+![bookatable](public/screenshots/bookatable.png)
 
 ### usersmange
 
-![usersmange](screenshots/usersmange.png)
+![usersmange](public/screenshots/usersmange.png)
 
 ### about
 
-![about](screenshots/about.png)
+![about](public/screenshots/about.png)
 
 ---
 
