@@ -52,19 +52,19 @@ Key Features & Highlights:
 
 ![contactus](public/screenshots/contactus.png)
 
-### bookingmange
+### Booking Mange
 
 ![bookingmange](public/screenshots/bookingmange.png)
 
-### bookatable
+### Book A Table
 
 ![bookatable](public/screenshots/bookatable.png)
 
-### usersmange
+### Users Mange
 
 ![usersmange](public/screenshots/usersmange.png)
 
-### about
+### About
 
 ![about](public/screenshots/about.png)
 
